@@ -9,6 +9,7 @@ public interface Direction {
         private String name;
 
         Directions(String name) {
+
             this.name = name;
         }
 
@@ -20,10 +21,5 @@ public interface Direction {
 
     void changeDirection();
 
-
-     public static void Main (String[] args) {
-         System.out.println(Directions.FLOOR);
-
-    }
 
 }
